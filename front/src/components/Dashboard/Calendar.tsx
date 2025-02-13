@@ -21,6 +21,10 @@ interface CreateModalData {
   description: string;
 }
 
+interface CalendarProps {
+    userId: string;
+  }
+
 export default function Calendar({ userId }: CalendarProps) {
   const [modalData, setModalData] = useState<ModalData | null>(null)
   const [createModal, setCreateModal] = useState<CreateModalData | null>(null)
