@@ -10,7 +10,7 @@ const Contact = () => {
         </h2>
         <p className='mt-7 text-lg font-semibold mb-6 text-primary_400'>
           Déjanos un{' '}
-          <a href='https://h4-02-vocaltech.vercel.app/wapps' target='_blank'>
+          <a href='https://nch4-vocaltech.vercel.app/wapps' target='_blank'>
             mensaje{' '}
           </a>
           y te responderemos lo antes posible.
